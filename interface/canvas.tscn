@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://cn5es58s44dvc"]
+
+[ext_resource type="PackedScene" uid="uid://cxkp12kdkiow" path="res://interface/splash/splash_screen.tscn" id="1_hrrok"]
+[ext_resource type="PackedScene" uid="uid://bcousdqsvr2lf" path="res://interface/title/title_screen.tscn" id="2_p5fdy"]
+[ext_resource type="PackedScene" uid="uid://dnxw2htjq1soc" path="res://interface/hud/hud.tscn" id="3_c8dqv"]
+[ext_resource type="PackedScene" uid="uid://bt78yu1op6ivc" path="res://interface/transitions/transitions.tscn" id="4_xwioj"]
+
+[node name="Canvas" type="CanvasLayer"]
+
+[node name="SplashScreen" parent="." instance=ExtResource("1_hrrok")]
+
+[node name="TitleScreen" parent="." instance=ExtResource("2_p5fdy")]
+
+[node name="HUD" parent="." instance=ExtResource("3_c8dqv")]
+
+[node name="Transitions" parent="." instance=ExtResource("4_xwioj")]

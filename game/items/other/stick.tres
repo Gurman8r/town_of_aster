@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://du3dqi0lkelv0"]
+
+[ext_resource type="Script" path="res://game/items/item_data.gd" id="1_bvs5y"]
+[ext_resource type="Texture2D" uid="uid://blrf46x3eep5t" path="res://game/items/other/stick.png" id="2_x50fo"]
+
+[resource]
+script = ExtResource("1_bvs5y")
+guid = "stick"
+name = "Stick"
+max_stack = 9999
+durability = -1.0
+texture = ExtResource("2_x50fo")

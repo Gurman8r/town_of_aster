@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://b46x36gsegk63"]
+
+[ext_resource type="Script" path="res://game/items/item_data.gd" id="1_uuaxm"]
+[ext_resource type="Texture2D" uid="uid://w8vg73nlqshk" path="res://game/items/other/stone.png" id="2_21n3h"]
+
+[resource]
+script = ExtResource("1_uuaxm")
+guid = "stone"
+name = "Stone"
+max_stack = 9999
+durability = -1.0
+texture = ExtResource("2_21n3h")
